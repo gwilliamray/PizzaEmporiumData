@@ -8,6 +8,11 @@ namespace ReadPizzaInvoice
 {
     public class InvoiceData
     {
+        /*
+         * This is a simalar class to the InvoiceItem class fro the Pizza Emporium
+         * But, they are neither the same in structur or purpose
+         */
+         
         public int Id { get; set; }
         public int MyProperty { get; set; }
         public DateTime SellDate { get; set; }
